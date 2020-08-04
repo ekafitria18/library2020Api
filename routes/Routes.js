@@ -3,7 +3,7 @@ const express = require('express');
 const app = express.Router();
 const repo = require('../repos/LibraryRepo');
 
-// TODO: Memanggil fungsi listBuku untuk mendapatkan data semua buku yang ada
+// TODO: Memanggil fungsi listBuku untuk mendapatkan data semua buku yang adas
 app.get('/', (req, res) => {
   // isi disini
   repo.listBuku().then((semuaBuku)=>{

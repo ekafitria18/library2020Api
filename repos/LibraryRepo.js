@@ -7,7 +7,7 @@ class LibraryRepo {
   }
 
   // TODO: Buat fungsi dengan nama `tambahBuku` untuk menambah buku baru pada perpustakaan
-  // Parameter infoBuku merupakan sebuah objek buku dengan key judulBuku, pengarangBuku, genreBuku
+  // Parameter infoBuku merupakaan sebuah objek buku dengan key judulBuku, pengarangBuku, genreBukus
   async tambahBuku(infoBuku) {
     // tambahkan disini
     const newBuku={

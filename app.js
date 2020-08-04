@@ -13,7 +13,7 @@ const routes = require('./routes/Routes');
 
 const app = express();
 
-//  TODO: Tambahkan variabel DB yang berasal dari file /config/Config
+//  TODO: Tambahkan variabel DB yang berasal dari file /config/Configs
 mongoose.connect(config.DB, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
